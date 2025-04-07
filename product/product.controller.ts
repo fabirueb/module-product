@@ -1,11 +1,4 @@
-import { Controller, Get } from "@nestjs/common";
+import { Controller } from '@nestjs/common';
 
-@Controller("git")
-export class ProductController {
-  constructor() {}
-
-  @Get("product")
-  async loadProduct() {
-    return "Das hat funktioniert";
-  }
-}
+@Controller('product')
+export class ProductController {}
