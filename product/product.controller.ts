@@ -1,5 +1,5 @@
 import { Controller, Get } from "@nestjs/common";
-import { GitService } from "./git.service";
+import { GitService } from "../git/git.service";
 
 @Controller("git")
 export class ProductController {
